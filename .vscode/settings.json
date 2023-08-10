@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.showFoldingControls": "always",
+    "editor.folding": true,
+    "editor.foldingStrategy": "indentation",
+}

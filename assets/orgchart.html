@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Organization Chart">
+	<meta name="keywords" content="Organization Chart">
+	<meta name="author" content="Organization Chart">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="http://164.100.198.60/assets/fontawesome-pro-6/css/all.min.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/lightgallery.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/graphik-fonts.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/animate.min.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/style.css">
+	<link rel="stylesheet" href="http://164.100.198.60/assets/css/media.css">
+	<script src="http://164.100.198.60/assets/js/jquery.min.js"></script>
+	<script src="http://164.100.198.60/assets/js/jquery.validate.js"></script>
+	<script src="http://164.100.198.60/assets/js/form_validation.js"></script>
+	<title>
+		Organization Chart	</title>
+      var onloadCallback = function()
+      {
+        grecaptcha.render('register_captcha', {
+          'sitekey' : '6LfiQ9QgAAAAAC1fGzkUprfKkEMtMFnySb_8apj3'
+        });
+        grecaptcha.render('feedback_captcha', {
+          'sitekey' : '6LfiQ9QgAAAAAC1fGzkUprfKkEMtMFnySb_8apj3'
+        });
+        grecaptcha.render('otp_captcha', {
+          'sitekey' : '6LfiQ9QgAAAAAC1fGzkUprfKkEMtMFnySb_8apj3'
+        });
+      };
+    </script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<!-- Breadcrums End -->
+
+
+
+
+<!--Side nav-->
+<!--Side nav-->
+
+<!--<div class="orgstrucure common-section">-->
+<!--	<div class="container">-->
+<!--		<div class="sec_pan text-center">-->
+<!--			<div   style=" margin-top: 25px;" class="sec_ind head">-->
+<!--				<div class="fa-light fa-pipe-circle-checkbefore-dnone"><a class="director-img" data-bs-target="#directorMessage" data-bs-toggle="modal" href="#"><img src="https://ppac.broadwayinfotech.net.au/beta/v3/assets/images/dictor-img.jpg" /></a></div>-->
+
+<!--				<div class="caption"><b class="fst-italic d-block text-green">Director General, PPAC </b> <b>Dheeraj Kumar Ojha</b> <a class="director-img fz12 d-block fw500" data-bs-target="#directorMessage" data-bs-toggle="modal" href="#">View Profile</a></div>-->
+<!--			</div>-->
+
+<!--			<div class="sec_grps d-flex justify-content-between pb-5">-->
+<!--				<div class="sec_ind active">-->
+
+<!--					<div  class="fa-light fa-coins "> </div>-->
+
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Finance</b> <b>Sanjay Varghese</b> <b class="fz16 d-block">Director</b></div>-->
+<!--				</div>-->
+
+<!--				<div class="sec_ind">-->
+<!--					<div class="fa-light fa-pipe-circle-checkbefore-dnone"><a class="director-img" data-bs-target="#additionalDirector2" data-bs-toggle="modal" href="#"><img src="https://ppac.broadwayinfotech.net.au/beta/v3/assets/images/nirenImg.png" /></a></div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Supply</b> <b>Niren Bhattacharyya</b> <b class="fz16 d-block">Addl. Director</b> <a class="director-img fz12 d-block fw500" data-bs-target="#additionalDirector2" data-bs-toggle="modal" href="#">View Profile</a></div>-->
+<!--				</div>-->
+
+<!--				<div class="sec_ind bottom-border">-->
+<!--					<div class="fa-light fa-chart-column before-dnone"><a class="director-img" data-bs-target="#additionalDirector" data-bs-toggle="modal" href="#"><img src="https://ppac.broadwayinfotech.net.au/beta/v3/assets/images/pankaj-img.png" /></a></div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Demand & Economic Studies</b> <b>Dr. Pankaj Sharma</b> <b class="fz16 d-block">Addl. Director</b><a class="director-img fz12 d-block fw500" data-bs-target="#additionalDirector" data-bs-toggle="modal" href="#">View Profile</a></div>-->
+<!--				</div>-->
+
+<!--				<div class="sec_ind">-->
+<!--					<div class="fa-light fa-gas-pump"> </div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Gas</b> <b>Mohinder Verma </b> <b class="fz16 d-block">Addl. Director</b></div>-->
+<!--				</div>-->
+
+<!--				<div class="sec_ind active">-->
+<!--					<div class="fa-light fa-user-gear"> </div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Admin</b> <b>Runita Goswami</b> <b class="fz16 d-block">Addl. Director</b></div>-->
+<!--				</div>-->
+<!--			</div>-->
+
+
+<!--			<div class="sec_grps d-flex justify-content-between pb-0 second-row">-->
+<!--				<div style=" margin-right: 55px;" class="sec_ind active">-->
+<!--					<div class="fa-light fa-bullseye-arrow"> </div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">Marketing & IC</b> <b>Poonam Mittal</b> <b class="fz16 d-block">Addl. Director</b></div>-->
+<!--				</div>-->
+
+<!--				<div style=" margin-left: 55px;"  class="sec_ind active">-->
+<!--					<div class="fa-light fa-desktop"> </div>-->
+
+<!--					<div class="caption"><b class="fst-italic d-block text-green">IT</b> <b>Prakash Sharma</b> <b class="fz16 d-block">Addl. Director</b></div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+
+<div class="orgstrucure common-section">
+	<div class="container">
+		<div class="sec_pan text-center">
+			<div class="sec_ind head">
+				<div class="org_icon ceeo"><a class="director-img" data-bs---target="#directorMessage" data-bs-toggle="modal" href="#"><img src="/assets/images/no-image.png" /> <!-- src="../assets/images/dictor-img.jpg" /> --> <!-- <div class="fa-light fa-gas-pump"> </div> --> </a></div>
+
+				<div class="caption"><b class="fst-italic d-block text-green">Director General, PPAC </b> <b>P. Manoj Kumar </b> <a class="director-img fz12 d-block fw500" data-bs---target="#directorMessage" data-bs-toggle="modal" href="#">View Profile</a></div>
+			</div>
+
+			<div class="sec_grps d-flex justify-content-between pb-5">
+				<div class="sec_ind active">
+					<div class="fa-light fa-coins"> </div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Finance</b> <b>Sanjay Varghese</b> <b class="fz16 d-block">Director</b></div>
+				</div>
+
+				<div class="sec_ind">
+					<div class="fa-light fa-pipe-circle-checkbefore-dnone"><a class="director-img" data-bs-target="#additionalDirector2" data-bs-toggle="modal" href="#"><img src="/assets/images/nirenImg.png" /></a></div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Supply</b> <b>Niren Bhattacharyya</b> <b class="fz16 d-block">Addl. Director</b> <a class="director-img fz12 d-block fw500" data-bs-target="#additionalDirector2" data-bs-toggle="modal" href="#">View Profile</a></div>
+				</div>
+
+				<div class="sec_ind bottom-border">
+					<div class="fa-light fa-chart-column before-dnone"><a class="director-img" data-bs-target="#additionalDirector" data-bs-toggle="modal" href="#"><img src="/assets/images/pankaj-img.png" /></a></div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Demand & Economic Studies</b> <b>Dr. Pankaj Sharma</b> <b class="fz16 d-block">Addl. Director</b><a class="director-img fz12 d-block fw500" data-bs-target="#additionalDirector" data-bs-toggle="modal" href="#">View Profile</a></div>
+				</div>
+
+				<div class="sec_ind">
+					<div class="fa-light fa-gas-pump"> </div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Gas</b> <b>Mohinder Verma </b> <b class="fz16 d-block">Addl. Director</b></div>
+				</div>
+
+				<div class="sec_ind active">
+					<div class="fa-light fa-user-gear"> </div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Admin</b> <b>Runita Goswami</b> <b class="fz16 d-block">Addl. Director</b></div>
+				</div>
+			</div>
+
+			<div class="sec_grps d-flex justify-content-between pb-0 second-row">
+				<div class="sec_ind active">
+					<div class="fa-light fa-bullseye-arrow"> </div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">Marketing & IC</b> <b>Poonam Mittal</b> <b class="fz16 d-block">Addl. Director</b></div>
+				</div>
+
+				<div class="sec_ind active">
+					<div class="fa-light fa-desktop"> </div>
+
+					<div class="caption"><b class="fst-italic d-block text-green">IT</b> <b>Prakash Sharma</b> <b class="fz16 d-block">Addl. Director</b></div>
+				</div>
+			</div>
+		</div>
+		<!-- The Modal -->
+
+		<div class="modal" id="directorMessage">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-body p-5"><button class="btn-close bt2 position-absolute" data-bs-dismiss="modal" type="button"></button>
+
+						<h4 class="fz32 fw600 mt-1 mb-4">Introduction to DG, PPAC</h4>
+
+						<p class="fz18 d-sm-flex"><img class="me-4 border fl_m" src="/assets/images/dictor-img.jpg" /> <span class="fz18"><b>Sh Dheeraj Kumar Ojha</b>, a member of Indian Statistical Services (1999 batch) had served various social & economic ministries such as Ministry of Commerce and Industry, Directorate General of Commercial Intelligence, Ministry of Statistics & Programme Implementation, Ministry of Health & Family welfare, etc. Shri Ojha has been posted in the Ministry of Petroleum & Natural gas w.e.f December 2021 and has been given the additional charge of PPAC as Director General w.e.f 01.09.2022.</span></p>
+
+						<p class="fz18">Shri Ojha has a keen interest in developing IT enabled data ecosystem for facilitating a decision support system in project implementation, monitoring and evaluation (M&E), Earned Value Management, Project Financing and Conflict Resolutions, etc. His belief in learning more about the Project implementation techniques led him to undertake Certificate in Project Management (CIPM) and Certified Project Manager (IPMA level C). Shri Ojha has an experience of more than 10 years in handling the infrastructure projects and written more than 15 research articles in various books & journals.</p>
+
+						<p class="fz18">In recognition of his efforts in developing automation for effective M&E practices in social & Infrastructure sector Shri Ojha has been conferred Honorary Fellowship by CEPM, India. In view of his outstanding contribution in digitalizing and sharing appropriate and quality health sector data through OGD Shri Ojha was awarded the Digital India 2020 award by Hon’ble President of India.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- The Modal -->
+
+		<div class="modal" id="additionalDirector">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-body p-5"><button class="btn-close position-absolute" data-bs-dismiss="modal" style="right: 13px;top: 8px;opacity: 1;font-size: 24px;" type="button"></button>
+
+						<h4 class="fz32 fw600 mt-1 mb-4">Introduction to Addl. Director, PPAC</h4>
+
+						<p class="fz18 d-flex align-items-start"><img class="me-4 border" src="/assets/images/pankaj-img.png" /> <span class="fz18"><b>Dr Pankaj Sharma, Additional Director I/c </b> – Demand & Economic Studies is Oil industry veteran with over 34 years’ experience. A PhD in Economics from Agra University and MBA from the Aligarh Muslim University, Dr Sharma joined PPAC in 2021 on deputation from HPCL where he started his career in 1988. He possesses extensive experience of leading diverse teams in the field of Retail, B2B Business, Operations, Dealer Management, Network Management with drive to make impact on business.</span></p>
+
+						<p class="fz18">At PPAC he employs his experience in the areas of Oil & Gas data management and analysis, petroleum marketing policies, bio fuels, Energy modelling and demand estimation.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- The Modal -->
+
+		<div class="modal" id="additionalDirector2">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-body p-5"><button class="btn-close position-absolute" data-bs-dismiss="modal" style="right: 13px;top: 8px;opacity: 1;font-size: 24px;" type="button"></button>
+
+						<h4 class="fz32 fw600 mt-1 mb-4">Introduction to Addl. Director, PPAC</h4>
+
+						<p class="fz18 d-flex align-items-start"><img class="me-4 border" src="/assets/images/nirenImg.png" /> <span class="fz18"><b>Sh. Niren Bhattacharyya, Additional Director I/c </b> is a Bachelor in Mechanical Engineering having more than 30 years of experience in Oil industry. He has worked at various level of marketing functions of Indian Oil Corporation. He has started his career in oil industry since 1991. Sh. Bhattacharyya has joined on deputation to Petroleum Planning & Analysis Cell (PPAC) an attached office of MoPNG in May 2019.</span></p>
+
+						<p class="fz18">At PPAC he is looking after the country’s data management on supply side covering Crude Oil & Natural Gas(NG) production for both indigenous & overseas, Indian refineries crude oil processing , Import & Export of Crude oil and Petroleum products including LNG. Also looking after country’s consumption of NG.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	//1666069792_a1b8ab8b1c10.xls
+	var hrefurl = 'http://164.100.198.60/uploads/pages/';
+	var oldUrl = $('#download_report').attr("href"); // Get current url
+	var newUrl = oldUrl.replace(oldUrl, hrefurl); // Create new url
+	$('#download_report').attr("href", newUrl); // Set herf value
+</script>	    <!-- Page content end -->
+
+
+
+
+<script src="http://164.100.198.60/assets/js/wow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.14/js/lightgallery-all.min.js" integrity="sha512-gwiYOEAQy15qpXUzJz9ijaFCp8uTWsKA/LbrIndIPfjOjspU5iQcGpMv8tupNUvIIp6HdbFqu5F989CNZ1csjA==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==" crossorigin="anonymous"></script>
+<script src="http://164.100.198.60/assets/js/main.js"></script>
+<script>
+    $(function(){
+
+  //Scroll event
+  $(window).scroll(function(){
+    var scrolled = $(window).scrollTop();
+    if (scrolled > 200) $('.go-top').fadeIn('slow');
+    if (scrolled < 200) $('.go-top').fadeOut('slow');
+  });
+
+  //Click event
+  $('.go-top').click(function () {
+    $("html, body").animate({ scrollTop: "0" },  500);
+  });
+
+});
+  $('.skp-content').click(function () {
+    $("#snapshot-bg").animate({ scrollTop: "0" },  500);
+  });
+
+
+
+         $(".media-gallery").lightGallery({
+            selector: '.media-gallery-itm',
+            thumbnail:false
+        });
+        $('.banner-sliders, .onload-sliders').owlCarousel({
+            items:1,
+            autoplay:true,
+            loop:true,
+            nav:true,
+            dots:false,
+            autoHeight:true
+        })
+
+        $('.important-reports-slider').owlCarousel({
+            items:3,
+            autoplay:true,
+            loop:true,
+            nav:true,
+            dots:false,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    autoHeight:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                776:{
+                    items:3,
+                    nav:false,
+                },
+                1200:{
+                    items:4
+                }
+            }
+        });
+
+        $('.partner-slider').owlCarousel({
+            items:2,
+            autoplay:true,
+            loop:true,
+            nav:true,
+            dots:false,
+            autoWidth:false,
+            margin:20,
+            responsive:{
+                0:{
+                    items:2,
+                    nav:false,
+                    autoHeight:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                776:{
+                    items:4,
+                    nav:false,
+                },
+                1300:{
+                    items:5,
+                    margin:15,
+                    autoHeight:false,
+                    nav:true,
+                }
+            }
+        });
+
+
+        $('.performnce_meter').owlCarousel({
+            items:2,
+            autoplay:true,
+            autoplayHoverPause:true,
+            loop:true,
+            nav:true,
+            dots:false,
+            autoWidth:false,
+            margin:40,
+            responsive:{
+                0:{
+                    items:2,
+                    nav:false,
+                    autoHeight:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                776:{
+                    items:4,
+                    nav:false,
+                },
+                1300:{
+                    items:4,
+                    margin:30,
+                    autoHeight:false,
+                    nav:true,
+                }
+            }
+        });
+
+
+    //Set language in session via ajax
+    $(document).on("change", '#change_language', function () {
+        var language = $('#change_language').val();
+        //alert('Hiii'+language);
+        $.ajax({
+            url: 'http://164.100.198.60/set_language',
+            type: 'post',
+            //dataType:'json',
+            data:{language:language},
+            success: function (res) {
+                location.reload();
+            }
+        });
+    });
+
+    $('#onLoad .btn-close').on('click', function(){
+       window.sessionStorage.setItem('close_pop' , 1)
+    })
+
+    $(window).on('load', function() {
+        if(!window.sessionStorage.getItem('close_pop')){
+            $('#onLoad').modal('show');
+        }
+
+    });
+
+    		// sticky
+		   	var stickyNavTop = $('.header-navigation').offset().top;
+		   	var stickyNav = function(){
+			    var scrollTop = $(window).scrollTop();
+			    if (scrollTop > stickyNavTop) {
+			        $('.header-navigation').addClass('sticky');
+			    } else {
+			        $('.header-navigation').removeClass('sticky');
+			    }
+			};
+
+			stickyNav();
+			$(window).scroll(function() {
+				stickyNav();
+			});
+    </script>
+
+<script>
+	function onlyNumberKey(evt) {
+		// Only ASCII character in that range allowed
+		var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+		if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+			return false;
+		return true;
+	}
+</script>
+
+<input type="hidden" id="home_url" name="home_url" value="http://164.100.198.60/">
+<input type="hidden" id="captcha_validation" name="captcha_validation" value="1">
+</body>
+</html>
